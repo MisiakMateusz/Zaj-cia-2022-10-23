@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listy</title>
+    
+    <style>
+        ol{
+            list-style-type: lower-alpha;
+        }
+
+        ul {
+            list-style-type: circle; 
+        }
+        #listaPanstw, #listaOwocow{
+            width: 150px;
+        }
+
+        #listaPanstw{
+            /*
+            border-color: red;
+            border-style: solid;
+            border-width: 2px;*/
+            border: 2px solid red;
+        }
+
+        #listaOwocow{
+            /*
+            border-color: green;
+            border-style: solid;
+            border-width: 2px;*/
+            border: 2px solid green;
+        }
+
+        #nazwaPanstwa{
+            color: red;
+        }
+
+        #nazwaOwocow{
+            color: green;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <p>Poniżej znajduje się lista <span id="nazwaPanstwa">Państw</span> i <span id="nazwaOwocow">Owoców</span></p>
+
+    <div id="listaPanstw">
+        <p>Lista państw</p>
+        <!--ordered list-->
+        <ol>
+            <li>Niemcy</li>
+            <li>Polska</li>
+            <li>USA</li>
+            <li>Litwa</li>
+            <li>Czechy</li>
+        </ol>
+    </div>
+
+    <div id="listaOwocow"> 
+        <p>Lista owoców</p>
+        <!--unordered list-->
+        <ul>
+            <li>jabłko</li>
+            <li>kiwi</li>
+            <li>banany</li>
+            <li>gruszki</li>
+        </ul>
+    </div>
+
+    <!--definition list-->
+    <dl>
+        <dt>młotek</dt>
+        <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur sit totam voluptatem non ratione, dicta eligendi quo, nostrum velit explicabo eveniet repudiandae? Eaque vel obcaecati consequatur, corrupti impedit autem.</dd>
+        
+        <dt>łopata</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptate corporis illum fuga quas. Blanditiis quo aut maiores illo repellendus minus amet adipisci quas assumenda optio eos, aspernatur alias! Illum?</dd>
+    </dl>
+</body>
+</html>
